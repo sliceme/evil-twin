@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUJU</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+</head>
+<body class="bg-black text-white p-2 md:p-8 w-full flex flex-col gap-8">
+    <!-- 1 -->
+    <section class="w-full h-screen">
+        <header class="flex flex-row items-center justify-between w-full fixed top-0 left-0 p-2 md:p-8 bg-black">
+            <div class="flex flex-row gap-4 text-xl md:text-3xl font-bold font-acme items-center justify-center">
+                <img src="logo.png" alt="logo" class="rounded-full md:h-16 md:w-16 h-12 w-12">
+                JUJU
+            </div>
+            <div class="flex flex-row items-center justify-center gap-2 md:gap-6 uppercase font-mono text-sm md:text-xl">
+                <a class="hover:text-blue-500 transition-all hidden md:block" href="https://t.me/officialfroggiestoken">Telegram</a>
+                <a class="hover:text-blue-500 transition-all hidden md:block" href="https://twitter.com/EvilTwinJUJU">Twitter</a>
+                <a class="hover:text-blue-500 transition-all hidden md:block" href="https://www.froggiestoken.com/eviltwin">White Paper</a>
+                <a class="bg-blue-500 rounded p-3 pt-2 pb-2" href="https://pinksale.com">Buy Now</a>
+            </div>
+        </header>
+        <div class="w-full flex flex-col items-center justify-between pt-[10%]">
+            <div class="flex flex-col-reverse md:flex-row itmes-center w-full justify-between md:pl-[10%] md:pr-[10%] gap-4 md:gap-0">
+                <p class="md:w-[50%] text-center self-center text-xl">Welcome to my domain, where darkness reigns supreme and the weak-minded are
+                    easily swayed. I am JUJU, the good frog gone bad, the evil twin of all frogs and now targeting
+                    the good almighty and self-righteous Froggies and will beat him in the chase for FILTHY
+                    WEALTH…
+                    <br>
+                    <button class="mt-10 md:-mr-[70%] text-3xl bg-blue-500 p-3 pt-2 pb-2 rounded uppercase font-mono font-bold">Buy Now</button>
+                </p>
+                <img src="logo.png" alt="logo" class="rounded md:h-96 md:w-96 w-full">
+            </div>
+        </div>
+    </section>
+    <!-- 2 -->
+    <section class="flex flex-col items-center w-full gap-8 md:pl-32 md:pr-32">
+        <div class="flex flex-col md:flex-row w-full justify-between items-center">
+            <img class="w-[90%] md:w-[35%] rounded" src="assets/s2_1.jpg" alt="s2_1">
+            <span class="flex flex-col items-center justify-center">
+                <h1 class="text-3xl md:text-5xl font-bold font-acme">Embrace the Darkness</h1>
+                <p class="font-mono text-center md:w-[60%]">Froggies that foul has created a strong community and built utilities and I will steal and
+                    take it all over in no time… He will be exploited and his community join my forces…</p>
+            </span>
+        </div>
+        <div class="flex flex-col md:flex-row-reverse w-full justify-between items-center">
+            <img class="w-[90%] md:w-[35%] rounded" src="assets/s2_2.jpg" alt="s2_2">
+            <span class="flex flex-col items-center justify-center">
+                <h1 class="text-3xl md:text-5xl font-bold font-acme">The Triumph of Chaos</h1>
+                <p class="font-mono text-center md:w-[60%]">Behold as chaos unfolds before your very eyes. Froggies finds itself on the precipice of
+                    destruction, torn apart by suspicion and fear sowed by my hand. The community, once
+                    united in their delusions of righteousness, now crumbles beneath the weight of their own
+                    folly.</p>
+            </span>
+        </div>
+        <div class="flex flex-col md:flex-row w-full justify-between items-center">
+            <img class="w-[90%] md:w-[35%] rounded" src="assets/s2_3.jpg" alt="s2_3">
+            <span class="flex flex-col items-center justify-center">
+                <h1 class="text-3xl md:text-5xl font-bold font-acme">Conclusion</h1>
+                <p class="font-mono text-center md:w-[60%]">Prepare yourselves, mortals, for the reign of the Evil Twin has only just begun. Enter my
+                    domain if you dare, and witness the power of the Evil Twin as it bends to my will. Abandon
+                    hope, all ye who enter here, for in the end, only darkness awaits.</p>
+            </span>
+        </div>
+    </section>
+    <!-- 3 -->
+    <section class="flex flex-col items-center justify-center pt-16 gap-8">
+        <h1 class="uppercase text-5xl md:text-7xl font-acme font-bold">Tokenomics</h1>
+        <img src="assets/s3_piechart.jpg" alt="pie chart" class="">
+        <p class="text-lg md:text-2xl font-bold items-center text-center flex flex-col md:flex-row gap-4">
+            CA:
+            <span id="ca" value="GYXkaVsrX51adp6ptC5KGhWbWeoJcGXiJp8Piwpt95Nk" class="border-none outline-none font-mono font-light bg-black text-white text-sm md:text-2xl">GYXkaVsrX51adp6ptC5KGhWbWeoJcGXiJp8Piwpt95Nk</span>
+            <button id="btn" class="md:h-8 md:w-8 h-6 w-6" data-clipboard-text="GYXkaVsrX51adp6ptC5KGhWbWeoJcGXiJp8Piwpt95Nk"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEOElEQVR4nO2b30/TQBzAeeKBP8A/kZhsia/6AIP4IKStDz4oU1wDBjZn+BEiLypD0iUGIWiiMXuQgcxBTAwDJox1HWe+pZul64+79q53GC65hN22tp/PXb/9flvW13fTblqklh5MD8hJdUhOqCU5qepKUkUMe1VOqmOpVL6/T4Qm3Z6+pSQyW4yhezpIEAJeTma+wgFNDM92D+5tuRmpaxUdbR4YPR3GF7VKdyVwh1cS6hc4mPRwFtVKc1QE+MHD+6u7ze5+hIJvVuYjC/CCL+61uvAb+wZfAZIHfFQBuPAwxk2A5AMfRQAJPDcBUgB8WAGk8FwESBjwYQSEgY9dgIQJTyogLHysAtKD6YFOkvN0JIeOfOBJBESBj1WAnFSHOklOEPzOh7x5UI/u5pjCxysgoZZIU9QXU+ue8GvlMzT3ags9Hp5HD+9MIeFrBpmgsIGZn55eR2++N1zhC6UTlL6/iK5VzaBQyu0B/snoZYx4nprpHpxeKxP3dv0AocaR2eFvt3HoP79tR68ZFAoCAH5idMHcTmZk5krNwAq+0yPHCiWiADd4+9UiLLyBAQ+f4Sqg4AEfRkAYeHifm4CCDzypgLDw3AQUAuBxBLQbtVDnvP0zXAQUMOD9BeyY8NAuPGYVZ+aht45/xCuggAnvJ6B9foSuNP2MGB62AfCocRifgLXyWTfJUUdnsGsGt+Vvzjy0Zp0Y3vjzyxJXj+8yqFV0M73tJDm4NcPEvVnvgBdi5k34C+NSwEUbIf2UvQDNKmwgtydNUddevqMW7XtOHasxFaDZqjqSwgZm/n1+BTV+b1OB7wQ8c9nDzMexAjRHSUsrtw8N3zi0Tp1TKwacsosBmks9TyO3jwzf6a1zdrWA5nEzI67cPhCeZTGk+dzJiSu3J4GnKkALuI2FK2B2/F8pjNuz8qLv93PKEnsBmwH38HAF5GTyO0JZab77/ay8IIaAosezOhGWPXMBRZ9ndSLBMxFQDHhWJxI8dQFFjGd1IsFTFVDEfFYXBB/mKkAS9JjmAasAH/CkJmjmw1wFhBCwas38s7HXaHJ8+Qo8jNkF8F72TARsOKK92+xDFwmeyVVACRAgEjwTAZPjyz2nALy2Cwhz9/YSvkYVnomAzYAgGDTzWWkpchAkCYaxC9ADZh4Km/9eQJvzsrfvj4aAKmxg5eM+lgCeAc9tf5EFyEl1jGRZigRPRUAqle+3JFTDCOAJT0UAbnMTwBueqwBDAHhuAoz6gVn1wa0seNLbOtkz4SEHcF66aIzZ4Tv75SbAcERfs7VbCDWOXeMEjTG3GecmQHfs2IQ/P6EGe20EZOUFa8kedw8YXjuXcdgxWGmw1O3L3dyvY4yLgBangCdEEGwJBM/pKnAoDHzcAqqwI/j3VBbwzkIKp+9+/hTfz+tkwpoh1p7IPGAuIEVYM8TUxfqJ7U3rE7f9BUbNG9wNajm6AAAAAElFTkSuQmCC"></button>
+        </p>
+        <div class="flex items-center justify-evenly flex-col md:flex-row w-full">
+            <img class="rounded-full md:h-96 md:w-96 w-60" src="assets/s3_1.jpg" alt="s3_tokenomics">
+            <ul class="list-inside list-disc text-lg md:text-2xl font-bold gap-1 md:gap-2 flex flex-col">
+                <li>Total supply: <span class="font-mono font-light">666.666.666.666</span></li>
+                <ul class="list-inside list-disc pl-4">
+                    <li>Tokens for presale: <span class="font-mono font-light">300.000.000.000</span></li>
+                    <li>Tokens for liquidity: <span class="font-mono font-light">166.666.666.666</span></li>
+                    <li>Gate.io OrderBook (Locked): <span class="font-mono font-light">33.333.333.333</span></li>
+                    <li>LBank OrderBook (Locked): <span class="font-mono font-light">33.333.333.333</span></li>
+                    <li>Bitget OrderBook (Locked): <span class="font-mono font-light">33.333.333.333</span></li>
+                    <li>OKX OrderBook (Locked): <span class="font-mono font-light">66.666.666.666</span></li>
+                    <li>Staking and P2E (Locked): <span class="font-mono font-light">33.333.333.333</span></li>
+                </ul>
+                <li>Liquidity Percent: <span class="font-mono font-light">51%</span></li>
+                <li>Auto Liquidity Lock</li>
+                <li>Liquidity Locked: <span class="font-mono font-light">185 days</span></li>
+                <li>No Team Tokens</li>
+                <li>Team Doxxed</li>
+                <li>KYC</li>
+                <li>Audit</li>
+            </ul>
+        </div>
+    </section>
+    <!-- 4 -->
+    <section class="flex flex-col items-center justify-center pt-16 gap-8">
+        <h1 class="uppercase text-5xl md:text-7xl font-acme font-bold">Roadmap</h1>
+        <ol class="relative border-s border-gray-200 dark:border-gray-700 text-xl">
+            <li class="mb-10 ms-6">            
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                    <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                    </svg>
+                </span>
+                <h3 class="flex items-center mb-4 text-3xl font-semibold text-gray-900 dark:text-white">Phase 1</h3>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">Start Marketing incl. KOLs (>100)</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">Presale</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">Launch</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">Dextools Update</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">SOL Trending</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">CMC/CG listing</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">Paid Trendings on AVEDEX, DEXVIEW, DEXSCREENER, DEXTOOLS</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">INFINITE HoldersNFT’s</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">NFT STAKING</label>
+                </div>
+            </li>
+            <li class="mb-10 ms-6">            
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                    <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                    </svg>
+                </span>
+                <h3 class="flex items-center mb-4 text-3xl font-semibold text-gray-900 dark:text-white">Phase 2</h3>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">Influencers Marketing</label>
+                </div>
+                <div class="flex items-center">
+                    <input checked id="checked-checkbox" type="checkbox" disabled value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600 disabled:bg-blue-500">
+                    <label for="checked-checkbox" class="ms-2 font-medium text-gray-900 dark:text-gray-300">CEX Listing</label>
+                </div>
+                </div>
+            </li>
+        </ol>
+    </section>
+    <!-- 5 -->
+    <h1 class="uppercase text-5xl md:text-7xl font-acme font-bold text-center">Team Members</h1>
+    <section class="grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center pt-16 pb-16">
+        <card class="flex flex-col items-center justify-center gap-4 md:shadow-none shadow-sm rounded-lg shadow-white">
+            <img src="assets/s5_1.jpg" alt="s5_1" class="rounded-full h-60 w-60">
+            <p class="text-2xl font-acme font-bold uppercase">JUJU</p>
+            <span class="font-sans text-lg text-center md:w-[65%]">FOUNDER OF FROGGIES TOKEN – GONE BAD, MBA in Biotechnology, executive in global
+                organization, project management specialist, seasoned crypto investor bridging real-life
+                experience with meme crypto through tool development</span>
+        </card>
+        <card class="flex flex-col items-center justify-center gap-4 md:shadow-none shadow-sm rounded-lg shadow-white">
+            <img src="assets/s5_2.jpg" alt="s5_2" class="rounded-full h-60 w-60">
+            <p class="text-2xl font-acme font-bold uppercase">Miss Froggies</p>
+            <span class="font-sans text-lg text-center md:w-[65%]">Marketing and Partnerships Startup Sass founder, early crypto investor, experienced in
+                company processes, led late seed rounds, proficient in managing tech and sales team.</span>
+        </card>
+        <card class="flex flex-col items-center justify-center gap-4 md:shadow-none shadow-sm rounded-lg shadow-white">
+            <img src="assets/s5_3.jpg" alt="s5_3" class="rounded-full h-60 w-60">
+            <p class="text-2xl font-acme font-bold uppercase">Chopin</p>
+            <span class="font-sans text-lg text-center md:w-[65%]">Builder in the crypto space and have been in memes since early start. Worked within
+                teams and tech development. Dedicated towards Froggies Token and building something
+                that will change the narrative within the space.</span>
+        </card>
+        <card class="flex flex-col items-center justify-center gap-4 md:shadow-none shadow-sm rounded-lg shadow-white">
+            <img src="assets/s5_4.jpg" alt="s5_4" class="rounded-full h-60 w-60">
+            <p class="text-2xl font-acme font-bold uppercase">Crypto Caveman</p>
+            <span class="font-sans text-lg text-center md:w-[65%]">Caveman is a degen turned dev. After spending many years in the space he was tired off
+                sitting on the sidelines watching scam after scam. Knowing the ins and outs of telegram and X. He brings his marketing and passion to the people. Known to speak his mind and
+                share his knowledge with others. Also has jokes.</span>
+        </card>
+    </section>
+    <footer class="flex flex-col items-start w-full justify-center pl-8 pr-8 pb-12">
+        <h1 class="text-2xl md:text-5xl font-acme font-bold">Social Links</h1>
+        <div class="flex flex-row items-center justify-evenly w-full md:pt-8">
+            <a class="hover:text-amber-500 transition-all uppercase text-md md:text-2xl" href="https://t.me/officialfroggiestoken">Telegram</a>
+            <a class="hover:text-amber-500 transition-all uppercase text-md md:text-2xl" href="https://twitter.com/EvilTwinJUJU">Twitter</a>
+            <a class="hover:text-amber-500 transition-all uppercase text-md md:text-2xl" href="https://www.froggiestoken.com/eviltwin">White Paper</a>
+        </div>
+    </footer>
+    <script>
+        new ClipboardJS('#btn');
+    </script>
+</body>
+</html>
