@@ -1142,6 +1142,14 @@ video {
     gap: 10rem;
   }
 
+  .md\:gap-8 {
+    gap: 2rem;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+
   .md\:p-3 {
     padding: 0.75rem;
   }
