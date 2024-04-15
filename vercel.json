@@ -1,6 +1,6 @@
 {
   "rewrites": [
     { "source": "/p2e", "destination": "/assets/p2e.mp4" }
-    { "source": "/white-paper", "destination": "/assets/white_paper.pdf"}
+    { "source": "/whitepaper", "destination": "/assets/white_paper.pdf"}
   ]
 }
