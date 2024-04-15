@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
     <body style="text-align: center">
-        <h2>P2E</h2>
-        <video width="500px" height="400px" controls="controls">
+        <video src="assets/p2e.mp4" autoplay loop></video>
+
+<style>
+    video {
+        height: 100vh;
+        width: 100%;
+        object-fit: fill; // use "cover" to avoid distortion
+        position: absolute;
+    }
+</style>
+<!--         <video width="500px" height="400px" controls="controls">
         <source 
             src="https://sliceme.github.io/evil-twin/assets/p2e.mp4" 
                 type="video/mp4" />
-       </video>
+       </video> -->
     </body>
 </html>
